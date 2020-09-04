@@ -1,0 +1,59 @@
+javascript assignment day(2)
+
+// Question 1
+// Program to search for a particular character in a string
+
+let data="hello python";
+console.log(data[0]);
+
+// o/p:h
+
+// Question 2
+// program to convert minutes to seconds
+
+var i=prompt("minutes:")
+console.log("seconds:",i*60);
+
+// o/p:second:2
+//       120
+
+
+// Question 3
+// Program to search for a element in a array of strings
+
+let fruits=["apple", "orange", "mango", "banana"];
+console.log(fruits[2]);
+
+// o/p:mango
+
+// Question 4
+// Program to display only elements containing 'a' in them from a array
+
+let x=prompt("enter size")
+let a=new Array();
+for(var i=0;i<x;i++)
+{
+    a[i]=prompt("enter the string");
+}
+for(i=0;i<x;i++)
+{
+    for(var j=0;j<(a[i]).length);j++)
+    {
+        if(a[i][j]=='a')
+        {
+            console.log(a[i]);
+            break;
+        
+        }
+    }
+}
+
+
+// Question 5
+// print an array in reverse Order
+
+let flowers=["rose","lily","jasmine","lotus"];
+console.log(flowers.reverse());
+
+o/p:["lotus","jasmine","lily","rose"]
+
